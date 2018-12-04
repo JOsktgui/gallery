@@ -5,7 +5,7 @@ const loadingReducer = (state = false, action) => {
     case IMAGES.LOAD:
       return true;
     case IMAGES.LOAD_SUCCESS:
-      return true;
+      return false;
     case IMAGES.LOAD_FAIL:
       return false;
 
